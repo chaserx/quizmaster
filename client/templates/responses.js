@@ -29,3 +29,11 @@ Template.advanceQuestion.events({
     $('form:first *:input[type!=hidden]:first').focus();
   }
 });
+
+Template.resetForm.events({
+  'click button': function () {
+    Session.set("response", "?");
+    $('#insertResponseForm')[0].reset();
+    $('form:first *:input[type!=hidden]:first').focus();
+  }
+});
