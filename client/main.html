@@ -1,5 +1,6 @@
 <head>
   <title>Quizmaster!</title>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -10,9 +11,23 @@
     </header>
     <div id="main" class="row-fluid">
       <div class="row">
-        {{> insertResponseForm}}
+        <div class="col-md-1">
+          {{> insertResponseForm}}
+        </div>
+        <div class="col-md-11">
+          {{> responses}}
+        </div>
       </div>
-      {{> responses}}
+      <div class="row">
+        <div class="col-md-12">
+          {{> advanceQuestion}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Previous Questions and Players</h3>
+        </div>
+      </div>
     </div>
   </div>
 </body>
