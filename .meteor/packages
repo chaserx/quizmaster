@@ -4,7 +4,6 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 insecure
 less
 coffeescript
@@ -13,4 +12,3 @@ iron:router
 mizzao:bootstrap-3
 aldeed:autoform
 aldeed:collection2
-

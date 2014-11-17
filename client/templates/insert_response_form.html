@@ -1,5 +1,6 @@
 <template name="insertResponseForm">
   {{#autoForm collection="Responses" id="insertResponseForm" type="insert"}}
     {{> afQuickField name='playerID' maxlength="1"}}
+    {{> afQuickField name='questionID' label=false type='hidden' value=defaultQuestionID}}
   {{/autoForm}}
 </template>
