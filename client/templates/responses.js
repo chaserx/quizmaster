@@ -16,7 +16,7 @@ Template.response.helpers({
 
 Template.responseList.helpers({
   responses: function() {
-    return Responses.find();
+    return Responses.find({});
   }
 });
 
