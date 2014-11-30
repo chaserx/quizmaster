@@ -4,7 +4,6 @@
 # but you can also edit it by hand.
 
 meteor-platform
-insecure
 less
 coffeescript
 waitingkuo:jade
@@ -13,4 +12,8 @@ mizzao:bootstrap-3
 aldeed:autoform
 aldeed:collection2
 houston:admin
+accounts-google
+mrt:accounts-ui-bootstrap-3-blaze
+mrt:flash-messages
+mrt:moment
 
