@@ -13,7 +13,9 @@
 
 body {
   background: #eee;
-  color: #666666; }
+  color: #666666;
+  padding-top: 60px;
+}
 
 .navbar {
   margin-bottom: 10px; }
